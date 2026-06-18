@@ -61,7 +61,13 @@ Write a Java program to implement: **print your name**.
 
 ### 💻 Solution
 ```java Programs
-// Write your Java solution here 
+class Main {
+    public static void main(String[] args) {
+
+        System.out.println("Ghanendra Yadav"); //A new line will also be printed after the name.
+
+    }
+}
 ```
 
 ---
@@ -74,11 +80,38 @@ Write a Java program to implement: **print your name**.
 ### 📝 Problem Description
 Write a Java program to implement: **add two numbers**.
 
-### 💻 Solution
+### 💻 Solution 1
 ```java
-// Write your Java solution here
+class Main {
+    public static void main(String[] args) {
+
+        int firstNumber = 10, secondNumber = 20;
+        int sum = firstNumber + secondNumber;
+        System.out.println(sum);
+    }
+}
 ```
 
+### 💻 Solution 2
+```java
+class Main {
+    public static void main(String[] args) {
+
+        int firstNumber = 40, secondNumber = 30;
+        System.out.println(firstNumber+secondNumber);
+    }
+}
+```
+
+### 💻 Solution 3
+```java
+class Main {
+    public static void main(String[] args) {
+        
+        System.out.println(50+60); //Methods to Avoid
+    }
+}
+```
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
 
