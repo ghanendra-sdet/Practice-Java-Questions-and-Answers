@@ -44,7 +44,7 @@ Write a Java program to implement: **print 'Hello World'**.
 class Main {
     public static void main(String[] args) {
 
-        System.out.print("Hello World");
+        System.out.print("Hello World"); // System.out.println("Hello World");
     }
 }
 ```
