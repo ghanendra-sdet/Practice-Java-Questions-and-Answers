@@ -124,7 +124,26 @@ Write a Java program to implement: **swap two numbers**.
 
 ### 💻 Solution
 ```java
-// Write your Java solution here
+class Main {
+    public static void main(String[] args) {
+        
+        int firstNumber = 10;
+        int secondNumber = 20;
+        
+        System.out.println("Before Swapping Numbers\n");
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);        
+        
+        firstNumber = firstNumber + secondNumber;
+        secondNumber = firstNumber - secondNumber;
+        firstNumber = firstNumber - secondNumber;
+
+        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);
+        
+    }
+}
 ```
 
 ---
