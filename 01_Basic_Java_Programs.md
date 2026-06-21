@@ -122,7 +122,7 @@ class Main {
 ### 📝 Problem Description
 Write a Java program to implement: **swap two numbers**.
 
-### 💻 Solution
+### 💻 Solution 1
 ```java
 class Main {
     public static void main(String[] args) {
@@ -137,6 +137,30 @@ class Main {
         firstNumber = firstNumber + secondNumber;
         secondNumber = firstNumber - secondNumber;
         firstNumber = firstNumber - secondNumber;
+
+        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);
+        
+    }
+}
+```
+### 💻 Solution 2
+```java
+class Main {
+    public static void main(String[] args) {
+        
+        int firstNumber = 30;
+        int secondNumber = 50;
+        int thirdNumber;
+        
+        System.out.println("Before Swapping Numbers\n");
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);        
+        
+        thirdNumber = firstNumber;
+        firstNumber = secondNumber;
+        secondNumber = thirdNumber;
 
         System.out.println("\nAfter Swapping Numbers\n");        
         System.out.println("First Number is = "+firstNumber);
