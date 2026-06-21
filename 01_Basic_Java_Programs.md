@@ -169,6 +169,77 @@ class Main {
     }
 }
 ```
+### 💻 Solution 3
+```java
+class Main {
+    public static void main(String[] args) {
+        
+        int firstNumber = 30;
+        int secondNumber = 50;
+        int thirdNumber;
+        
+        System.out.println("Before Swapping Numbers\n");
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);        
+        
+        // Swapping using Bitwise XOR Operator
+        firstNumber = firstNumber ^ secondNumber;
+        secondNumber = firstNumber ^ secondNumber;
+        firstNumber = firstNumber ^ secondNumber;
+
+        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);
+        
+    }
+}
+```
+### 💻 Solution 4
+```java
+class Main {
+    public static void main(String[] args) {
+        
+        int firstNumber = 30;
+        int secondNumber = 50;
+        int thirdNumber;
+        
+        System.out.println("Before Swapping Numbers\n");
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);        
+        
+        firstNumber = firstNumber * secondNumber;
+        secondNumber = firstNumber / secondNumber;
+        firstNumber = firstNumber / secondNumber;
+
+        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);
+        
+    }
+}
+```
+### 💻 Solution 5
+```java
+class Main {
+    public static void main(String[] args) {
+        
+        int firstNumber = 30;
+        int secondNumber = 50;
+        int thirdNumber;
+        
+        System.out.println("Before Swapping Numbers\n");
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);        
+        
+        firstNumber = firstNumber + secondNumber - (secondNumber = firstNumber);
+
+        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("First Number is = "+firstNumber);
+        System.out.println("Second Number is = "+secondNumber);
+        
+    }
+}
+```
 
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
