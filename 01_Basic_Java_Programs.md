@@ -218,7 +218,7 @@ class Main {
     }
 }
 ```
-### 💻 Solution 5
+<!-- ### 💻 Solution 5
 ```java
 class Main {
     public static void main(String[] args) {
@@ -239,7 +239,7 @@ class Main {
         
     }
 }
-```
+``` -->
 
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
