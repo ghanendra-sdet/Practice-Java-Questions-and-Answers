@@ -130,7 +130,7 @@ class Main {
         int firstNumber = 10;
         int secondNumber = 20;
         
-        System.out.println("Before Swapping Numbers\n");
+        System.out.println("Before swapping numbers\n");
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);        
         
@@ -138,7 +138,7 @@ class Main {
         secondNumber = firstNumber - secondNumber;
         firstNumber = firstNumber - secondNumber;
 
-        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("\nAfter swapping numbers\n");        
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);
         
@@ -154,7 +154,7 @@ class Main {
         int secondNumber = 50;
         int thirdNumber;
         
-        System.out.println("Before Swapping Numbers\n");
+        System.out.println("Before swapping numbers\n");
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);        
         
@@ -162,7 +162,7 @@ class Main {
         firstNumber = secondNumber;
         secondNumber = thirdNumber;
 
-        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("\nAfter swapping numbers\n");        
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);
         
@@ -178,7 +178,7 @@ class Main {
         int secondNumber = 50;
         int thirdNumber;
         
-        System.out.println("Before Swapping Numbers\n");
+        System.out.println("Before swapping numbers\n");
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);        
         
@@ -187,7 +187,7 @@ class Main {
         secondNumber = firstNumber ^ secondNumber;
         firstNumber = firstNumber ^ secondNumber;
 
-        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("\nAfter swapping numbers\n");        
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);
         
@@ -203,7 +203,7 @@ class Main {
         int secondNumber = 50;
         int thirdNumber;
         
-        System.out.println("Before Swapping Numbers\n");
+        System.out.println("Before swapping numbers\n");
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);        
         
@@ -211,7 +211,7 @@ class Main {
         secondNumber = firstNumber / secondNumber;
         firstNumber = firstNumber / secondNumber;
 
-        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("\nAfter swapping numbers\n");        
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);
         
@@ -227,13 +227,13 @@ class Main {
         int secondNumber = 50;
         int thirdNumber;
         
-        System.out.println("Before Swapping Numbers\n");
+        System.out.println("Before swapping numbers\n");
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);        
         
         firstNumber = firstNumber + secondNumber - (secondNumber = firstNumber);
 
-        System.out.println("\nAfter Swapping Numbers\n");        
+        System.out.println("\nAfter swapping numbers\n");        
         System.out.println("First Number is = "+firstNumber);
         System.out.println("Second Number is = "+secondNumber);
         
