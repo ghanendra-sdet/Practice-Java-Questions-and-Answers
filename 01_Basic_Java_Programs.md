@@ -251,10 +251,59 @@ class Main {
 ### 📝 Problem Description
 Write a Java program to implement: **calculate the area of a circle**.
 
-### 💻 Solution
+### 💻 Solution 1
 ```java
-// Write your Java solution here
+class Main {
+
+    public static final double PI = 3.14159;
+
+    public static void main(String[] args) {
+
+        double area, radius = 10;
+
+        area = PI * radius * radius;
+
+        System.out.println("Area of Circle = " + area);
+    }
+}
 ```
+
+<!-- ### 💻 Solution 2
+```java
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Radius: ");
+        double radius = sc.nextDouble();
+
+        double area = Math.PI * radius * radius;
+
+        System.out.println("Area of Circle = " + area);
+
+        sc.close();
+    }
+}
+```
+### 💻 Solution 3
+```java
+class Main {
+
+    static double calculateArea(double radius) {
+        return Math.PI * radius * radius;
+    }
+
+    public static void main(String[] args) {
+
+        double radius = 10;
+
+        System.out.println("Area of Circle = " + calculateArea(radius));
+    }
+}
+``` -->
 
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
