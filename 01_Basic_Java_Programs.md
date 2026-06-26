@@ -288,7 +288,7 @@ class Main {
     }
 }
 ```
-<!-- ### 💻 Solution 3
+### 💻 Solution 3
 ```java
 class Main {
 
@@ -303,7 +303,7 @@ class Main {
         System.out.println("Area of Circle = " + calculateArea(radius));
     }
 }
-``` -->
+```
 
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
