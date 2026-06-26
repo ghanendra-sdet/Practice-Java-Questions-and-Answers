@@ -251,10 +251,10 @@ class Main {
 ### 📝 Problem Description
 Write a Java program to implement: **calculate the area of a circle**.
 
-<!-- ### 💻 Solution
+### 💻 Solution
 ```java
 // Write your Java solution here
-``` -->
+```
 
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
