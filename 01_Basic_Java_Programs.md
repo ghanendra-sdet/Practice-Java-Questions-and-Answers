@@ -329,7 +329,7 @@ class Main {
     }
 }
 ```
-<!-- ### 💻 Solution 2
+### 💻 Solution 2
 ```java
 class Main {
 
@@ -341,7 +341,7 @@ class Main {
     }
 }
 ```
-### 💻 Solution 3
+<!-- ### 💻 Solution 3
 ```java
 class Main {
 
