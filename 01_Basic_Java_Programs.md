@@ -341,19 +341,15 @@ class Main {
     }
 }
 ```
-<!-- ### 💻 Solution 3
+### 💻 Solution 3
 ```java
 class Main {
 
     public static void main(String[] args) {
 
-        double length = 20.15, width = 12.25;
-        
-        double area = length * width;
-
-        System.out.println("Area of Rectangle = " + area);
+        System.out.println("Area of Rectangle = " + (50 * 30));
     }
-} -->
+}
 ```
 
 ---
