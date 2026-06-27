@@ -315,9 +315,45 @@ class Main {
 ### 📝 Problem Description
 Write a Java program to implement: **calculate the area of a rectangle**.
 
-### 💻 Solution
+### 💻 Solution 1
 ```java
-// Write your Java solution here
+class Main {
+
+    public static void main(String[] args) {
+
+        double length = 20.15, width = 12.25;
+        
+        double area = length * width;
+
+        System.out.println("Area of Rectangle = " + area);
+    }
+}
+```
+<!-- ### 💻 Solution 2
+```java
+class Main {
+
+    public static void main(String[] args) {
+
+        double length = 25.15, width = 15.25;
+
+        System.out.println("Area of Rectangle = " + length * width);
+    }
+}
+```
+### 💻 Solution 3
+```java
+class Main {
+
+    public static void main(String[] args) {
+
+        double length = 20.15, width = 12.25;
+        
+        double area = length * width;
+
+        System.out.println("Area of Rectangle = " + area);
+    }
+} -->
 ```
 
 ---
