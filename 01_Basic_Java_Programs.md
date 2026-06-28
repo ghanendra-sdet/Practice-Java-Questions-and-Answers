@@ -387,7 +387,15 @@ class Main {
     }
 }
 ```
+### 💻 Solution 3
+```java
+class Main {
+    public static void main(String[] args) {
 
+        System.out.println("Area of Triangle = " + (0.5 * 30 * 20));
+
+    }
+}
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
 
