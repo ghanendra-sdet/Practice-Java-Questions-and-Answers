@@ -376,6 +376,17 @@ class Main {
     }
 }
 ```
+### 💻 Solution 2
+```java
+class Main {
+    public static void main(String[] args) {
+
+        double area = 0.5 * 20 * 10;
+
+        System.out.println("Area of Triangle = " + area);
+    }
+}
+```
 
 ---
 [⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
