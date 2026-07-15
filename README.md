@@ -1,18 +1,18 @@
 # ☕ Java Programming Practice Roadmap
 
-Welcome to the **Java Programming Practice Roadmap**. This repository is built to help you develop strong Java skills through steady practice, clear organization, and real GitHub progress.
+Welcome to the **Java Programming Practice Roadmap**. This repository is designed to help you build strong Java skills through consistent practice, clear structure, and steady GitHub progress.
 
 ## 🎯 Practice Goals
 - **Practice consistently:** Solve 1–2 programs each day.
-- **Track your learning:** Use the roadmap to move from fundamentals to advanced topics.
-- **Build a portfolio:** Commit and push your solutions regularly to keep your GitHub contributions active.
-- **Cover every level:** Complete 14 categories and a total of **350 programs**.
+- **Track your learning:** Progress from fundamentals to advanced topics.
+- **Build your portfolio:** Commit and push solutions regularly.
+- **Cover the roadmap:** Complete 14 categories and a total of **350 programs**.
 
 ---
 
 ## 📂 Categories & Progress Tracker
 
-Track your progress by marking completed programs and moving through the categories.
+Track your progress by marking completed programs and advancing through each category.
 
 | Category | File | Programs | Progress |
 | :--- | :--- | :---: | :--- |
@@ -35,18 +35,19 @@ Track your progress by marking completed programs and moving through the categor
 
 ## 🛠️ How to Practice
 1. Open the category file for the topic you want to work on.
-2. Choose a problem from the Table of Contents.
-3. Scroll to the placeholder section.
+2. Choose a problem from the table of contents.
+3. Find the placeholder section for that problem.
 4. Replace the placeholder comment with your Java solution.
    ```java
    // Write your Java solution here
    ```
-5. Save, commit, and push your work to GitHub.
+5. Save your file, then commit and push your changes.
 
 ## 📌 Tips for Success
-- Start with the fundamentals before moving to advanced problems.
-- Revisit solved problems to improve efficiency and code style.
-- Use meaningful variable names and add comments for clarity.
-- Keep your commits focused: one problem per commit if possible.
+- Start with fundamentals before moving to advanced problems.
+- Revisit solved problems to improve efficiency and style.
+- Use meaningful variable names and add comments when needed.
+- Keep commits focused: one problem per commit is ideal.
+- Update the progress tracker as you complete problems.
 
 Happy coding and strong Java practice! 🚀
