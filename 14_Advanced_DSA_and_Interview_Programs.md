@@ -794,17 +794,3 @@ Write a Java program to implement: **solve the Word Search problem**.
 
 ---
 
-## 50. Write a Java program to demonstrate Dynamic Programming Basics (e.g. Fibonacci, Climbing Stairs)
-
-### 📝 Problem Description
-Write a Java program to implement: **demonstrate Dynamic Programming Basics (e.g. Fibonacci, Climbing Stairs)**.
-
-### 💻 Solution
-```java
-// Write your Java solution here
-```
-
----
-[⬆ Back to Top](#table-of-contents) | [📂 Main README](README.md)
-
----
